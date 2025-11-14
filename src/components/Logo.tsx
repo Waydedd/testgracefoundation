@@ -1,0 +1,39 @@
+export function Logo({ className = "" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 120 120"
+      className={className}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      {/* Circular background */}
+      <circle cx="60" cy="60" r="58" fill="#2563eb" />
+      
+      {/* Hands forming a heart shape */}
+      <g transform="translate(60, 60)">
+        {/* Left hand */}
+        <path
+          d="M -25 -10 Q -30 -5 -30 0 L -30 15 Q -30 20 -25 20 L -15 20 Q -10 20 -10 15 L -10 -5 Q -10 -10 -15 -15 Q -20 -20 -25 -15 Z"
+          fill="white"
+          opacity="0.95"
+        />
+        
+        {/* Right hand */}
+        <path
+          d="M 25 -10 Q 30 -5 30 0 L 30 15 Q 30 20 25 20 L 15 20 Q 10 20 10 15 L 10 -5 Q 10 -10 15 -15 Q 20 -20 25 -15 Z"
+          fill="white"
+          opacity="0.95"
+        />
+        
+        {/* Heart shape in center */}
+        <path
+          d="M 0 10 L -8 0 Q -12 -5 -8 -10 Q -5 -13 0 -10 Q 5 -13 8 -10 Q 12 -5 8 0 Z"
+          fill="#ef4444"
+        />
+      </g>
+      
+      {/* Grace letter G */}
+      <circle cx="60" cy="60" r="50" stroke="white" strokeWidth="2" opacity="0.3" />
+    </svg>
+  );
+}
