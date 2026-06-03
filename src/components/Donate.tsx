@@ -40,7 +40,7 @@ export function Donate() {
           To make donations please contact our office using 
             <a href="mailto:info@graceforpoorfoundation.org"
               className="text-gray-400 hover:text-blue-400 transition-colors">
-            info@graceforpoorfoundation.org
+             info@graceforpoorfoundation.org
             </a>
           </p>
         </div>
