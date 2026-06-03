@@ -8,14 +8,14 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email",
-      details: "info@graceforpoor.org",
-      link: "mailto:info@graceforpoor.org"
+      details: "info@graceforpoorfoundation.org",
+      link: "mailto:info@graceforpoorfoundation.org"
     },
     {
       icon: Phone,
       title: "Phone",
-      details: "+234-000-000-0000 ",
-      link: "tel:+2340000000000"
+      details: "+234-902-216-2927",
+      link: "tel:+2349022162927"
     },
     {
       icon: MapPin,

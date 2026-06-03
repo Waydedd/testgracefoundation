@@ -5,24 +5,24 @@ export function Impact() {
     {
       icon: Users,
       number: "50,000+",
-      label: "Lives Impacted",
-      description: "Individuals and families supported"
+      label: "Lives to be impacted by our programs",
+      description: "Individuals and families"
     },
     {
       icon: Building2,
       number: "150+",
-      label: "Communities",
+      label: "Communities to reach",
       description: "Across the nation"
     },
     {
       icon: Heart,
       number: "500+",
-      label: "Volunteers",
+      label: "Volunteers to recruit",
       description: "Dedicated supporters"
     },
     {
       icon: Award,
-      number: "15",
+      number: "2",
       label: "Years",
       description: "Of dedicated service"
     }

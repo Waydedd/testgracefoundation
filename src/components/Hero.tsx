@@ -29,7 +29,7 @@ export function Hero() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full mb-6">
             <Heart className="h-4 w-4 fill-red-400 text-red-400" />
-            <span>Transforming Lives Since 2010</span>
+            <span>Transforming Lives Since 2025</span>
           </div>
           
           <h1 className="text-white mb-6">
@@ -64,15 +64,15 @@ export function Hero() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16 pt-8 border-t border-white/20">
             <div>
-              <div className="text-white mb-1">50,000+</div>
+              <div className="text-white mb-1">50+</div>
               <p className="text-white/80 text-sm">Lives Impacted</p>
             </div>
             <div>
-              <div className="text-white mb-1">150+</div>
+              <div className="text-white mb-1">5+</div>
               <p className="text-white/80 text-sm">Communities Served</p>
             </div>
             <div className="col-span-2 md:col-span-1">
-              <div className="text-white mb-1">15 Years</div>
+              <div className="text-white mb-1">2 Years</div>
               <p className="text-white/80 text-sm">Of Service</p>
             </div>
           </div>

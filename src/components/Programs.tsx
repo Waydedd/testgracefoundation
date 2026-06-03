@@ -16,7 +16,7 @@ export function Programs() {
       title: "Education Support",
       description: "Scholarships, school supplies, and tutoring programs for underprivileged children.",
       image: "https://images.unsplash.com/photo-1666281269793-da06484657e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb24lMjBjbGFzc3Jvb20lMjBjaGlsZHJlbnxlbnwxfHx8fDE3NjI1ODk5NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      stats: "2,000+ students supported"
+      stats: "2,000+ students support/year"
     },
     {
       icon: Heart,
@@ -30,7 +30,7 @@ export function Programs() {
       title: "Shelter & Care",
       description: "Emergency shelter, clothing, and essential supplies for homeless individuals.",
       image: "https://images.unsplash.com/photo-1489851221632-0976a724c9fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGFyaXR5JTIwaGVscGluZyUyMHBvb3IlMjBjaGlsZHJlbnxlbnwxfHx8fDE3NjI1ODk5NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      stats: "1,500+ people assisted"
+      stats: "1,500+ people/year"
     }
   ];
 
