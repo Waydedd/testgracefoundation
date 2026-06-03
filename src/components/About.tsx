@@ -52,12 +52,12 @@ export function About() {
             </div>
             <h2 className="mb-6">Dedicated to Serving Those in Need</h2>
             <p className="text-gray-600 mb-6">
-              Grace for Poor Foundation was established in 2010 with a simple yet powerful mission: 
+              Grace for Poor Foundation was established in 2025 with a simple yet powerful mission: 
               to provide essential support to underprivileged communities. We believe that every 
               person deserves access to basic necessities like food, education, and healthcare.
             </p>
             <p className="text-gray-600 mb-8">
-              Over the years, we've grown from a small local initiative to a nationwide organization 
+              Over the years, we aim to grow from a small local initiative to a nationwide organization 
               impacting thousands of lives. Our dedicated team of volunteers and donors work tirelessly 
               to ensure that no one is left behind.
             </p>
