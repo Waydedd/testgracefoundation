@@ -38,7 +38,7 @@ export function Donate() {
           Your generosity helps us continue our vital work in communities across the nation. 
             Every dollar goes directly to those who need it most.
           To make donations please contact our office using 
-            <a href="mailto:info@graceforpoorfoundation.org"
+              <a href="mailto:info@graceforpoorfoundation.org"
               className="text-gray-400 hover:text-blue-400 transition-colors">
              info@graceforpoorfoundation.org
             </a>
