@@ -40,7 +40,7 @@ export function About() {
             </div>
             <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-xl shadow-lg max-w-xs">
               <p className="text-sm">
-                "Every contribution creates ripples of hope in communities across the nation"
+                "Every contribution creates ripples of hope in communities across the nation."
               </p>
             </div>
           </div>
