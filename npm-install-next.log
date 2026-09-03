@@ -1,0 +1,229 @@
+﻿npm : npm verb cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+At line:1 char:302
++ ... tch {} } }; npm install next@16.3.3 --loglevel verbose *> npm-install ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm verb cli C:...\bin\npm-cli.js:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm info using npm@10.2.4
+npm info using node@v20.11.1
+npm verb title npm install next@16.3.3
+npm verb argv "install" "next@16.3.3" "--loglevel" "verbose"
+npm verb logfile logs-max:10 dir:C:\Users\edd\AppData\Local\npm-cache\_logs\2026-08-26T20_33_55_744Z-
+npm verb logfile C:\Users\edd\AppData\Local\npm-cache\_logs\2026-08-26T20_33_55_744Z-debug-0.log
+npm verb shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+npm http fetch GET 200 https://registry.npmjs.org/next 355ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 20265ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 88ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 31ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/react 70ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/react-dom 46ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/sass 65ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/postcss 668ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 696ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next%2fenv 734ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 862ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 921ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/sharp 1003ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 1026ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 1116ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 1130ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-x64-msvc 1200ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 1250ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 1343ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 1457ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/nanoid 543ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/semver 545ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fcolour 550ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm 566ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-x64 567ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-x64 568ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-x64 570ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-arm64 570ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-ia32 575ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-s390x 573ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-ppc64 586ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-win32-arm64 585ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-freebsd-wasm32 581ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-arm64 589ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm 546ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 594ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-x64 557ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 557ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 557ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 558ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 557ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 633ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-webcontainers-wasm32 585ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 588ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 585ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 591ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x 602ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-linux-riscv64 671ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-wasm32 113ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@emnapi%2fruntime 23ms (cache hit)
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-wasm32-wasi
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-win32-ia32-msvc
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-win32-arm64-msvc
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-wasm32-wasi
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-x64-musl
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-x64-gnu
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-s390x-gnu
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-riscv64-musl
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-riscv64-gnu
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-ppc64-gnu
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-arm64-musl
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-arm64-gnu
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-arm-musleabihf
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-linux-arm-gnueabihf
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-freebsd-x64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-darwin-x64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-darwin-arm64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-android-arm64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@unrs\resolver-binding-android-arm-eabi
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-linux-x64-musl
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-linux-x64-gnu
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-linux-arm64-musl
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-freebsd-x64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-darwin-x64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-darwin-arm64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@tailwindcss\oxide-android-arm64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@next\swc-win32-arm64-msvc
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@next\swc-linux-x64-musl
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@next\swc-linux-x64-gnu
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@next\swc-linux-arm64-musl
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@next\swc-linux-arm64-gnu
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@next\swc-darwin-x64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@next\swc-darwin-arm64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-win32-ia32
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-win32-arm64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-webcontainers-wasm32
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-linuxmusl-x64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-linuxmusl-arm64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-linux-x64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-linux-s390x
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-linux-riscv64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-linux-ppc64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-linux-arm64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-linux-arm
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-linuxmusl-x64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-linuxmusl-arm64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-linux-x64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-linux-s390x
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-linux-riscv64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-linux-ppc64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-linux-arm64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-linux-arm
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-darwin-x64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-libvips-darwin-arm64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-freebsd-wasm32
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-darwin-x64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\@img\sharp-darwin-arm64
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-win32-arm64-msvc
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-linux-x64-musl
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-linux-x64-gnu
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-linux-arm64-musl
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-linux-arm64-gnu
+npm verb reify failed optional dependency 
+C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-linux-arm-gnueabihf
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-freebsd-x64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-darwin-x64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-darwin-arm64
+npm verb reify failed optional dependency C:\Users\edd\Desktop\grace-foundation\node_modules\lightningcss-android-arm64
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 18081ms
+npm http fetch GET 200 https://registry.npmjs.org/flatted 2620ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 2644ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/brace-expansion 2660ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/js-yaml 2735ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/minimatch 2765ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/ajv 2907ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/picomatch 2936ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-module-transforms 219ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/eslint-plugin-react-hooks 254ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@eslint%2feslintrc 644ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/eslint-plugin-jsx-a11y 645ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/eslint 671ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/eslint-plugin-import 931ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/eslint-plugin-react 934ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@eslint%2fconfig-array 1179ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree 393ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/flat-cache 188ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/micromatch 200ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/fdir 133ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/tinyglobby 142ms (cache hit)
+npm http fetch GET 200 https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.3.3.tgz 348887ms 
+(cache miss)
+npm verb stack Error: aborted
+npm verb stack     at connResetException (node:internal/errors:787:14)
+npm verb stack     at TLSSocket.socketCloseListener (node:_http_client:455:19)
+npm verb stack     at TLSSocket.emit (node:events:530:35)
+npm verb stack     at node:net:337:12
+npm verb stack     at TCP.done (node:_tls_wrap:657:7)
+npm verb cwd C:\Users\edd\Desktop\grace-foundation
+npm verb Windows_NT 10.0.22631
+npm verb node v20.11.1
+npm verb npm  v10.2.4
+npm ERR! code ECONNRESET
+npm ERR! network aborted
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+npm verb exit 1
+npm verb unfinished npm timer command:install 1787776437732
+npm verb unfinished npm timer reify 1787776437739
+npm verb unfinished npm timer reify:unpack 1787776542071
+npm verb unfinished npm timer reifyNode:node_modules/next 1787776542091
+npm verb unfinished npm timer reify:rollback:createSparse 1787776998556
+npm verb code 1
+
+npm ERR! A complete log of this run can be found in: 
+C:\Users\edd\AppData\Local\npm-cache\_logs\2026-08-26T20_33_55_744Z-debug-0.log

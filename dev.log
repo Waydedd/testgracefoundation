@@ -1,0 +1,26 @@
+﻿
+> grace-foundation@0.1.0 dev
+> next dev --webpack
+
+▲ Next.js 16.3.3 (webpack)
+- Local:         http://localhost:3000
+- Network:       http://172.20.10.7:3000
+- Environments: .env.local
+✓ Ready in 100s
+  Downloading swc package @next/swc-wasm-nodejs... to C:\Users\edd\AppData\Local\next-swc
+node.exe : ⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: 
+\\?\C:\Users\edd\Desktop\grace-foundation\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a 
+valid Win32 application.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (⚠ Attempted to ...32 application.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+\\?\C:\Users\edd\Desktop\grace-foundation\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Warning: Next.js ignored yarn.lock in C:\Users\edd because it is outside the current Git repository 
+(C:\Users\edd\Desktop\grace-foundation).
+ To use this directory, set `outputFileTracingRoot` in your Next.js config.
+
+✓ Running next.config.ts took 34.9s
+  Skipping creating a lockfile at C:\Users\edd\Desktop\grace-foundation\.next\dev\lock because we're using WASM bindings

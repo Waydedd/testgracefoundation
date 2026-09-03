@@ -1,13 +1,30 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 import { Logo } from "./Logo";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 
-export function Navbar() {
+const navItems = [
+  { id: "about", label: "About" },
+  { id: "programs", label: "Programs" },
+  { id: "impact", label: "Impact" },
+  { id: "contact", label: "Contact" },
+];
+
+type NavbarProps = {
+  brandName: string;
+  brandTagline: string;
+  donateButtonLabel: string;
+};
+
+export function Navbar({ brandName, brandTagline, donateButtonLabel }: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,12 +36,24 @@ export function Navbar() {
   }, []);
 
   const scrollToSection = (id: string) => {
+    if (!isHome) return;
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setIsMobileMenuOpen(false);
     }
   };
+
+  const renderNavLink = (id: string, label: string, className: string) =>
+    isHome ? (
+      <button key={id} onClick={() => scrollToSection(id)} className={className}>
+        {label}
+      </button>
+    ) : (
+      <Link key={id} href={`/#${id}`} className={className}>
+        {label}
+      </Link>
+    );
 
   return (
     <nav
@@ -35,43 +64,31 @@ export function Navbar() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo and Name */}
-          <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollToSection("hero")}>
+          <Link href="/" className="flex items-center gap-3 cursor-pointer">
             <Logo className="h-12 w-12" />
             <div className="flex flex-col">
-              <span className="text-blue-600">Grace for Poor</span>
-              <span className="text-sm text-gray-600">Foundation</span>
+              <span className="text-blue-600">{brandName}</span>
+              <span className="text-sm text-gray-600">{brandTagline}</span>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <button
-              onClick={() => scrollToSection("about")}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
-            >
-              About
-            </button>
-            <button
-              onClick={() => scrollToSection("programs")}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
-            >
-              Programs
-            </button>
-            <button
-              onClick={() => scrollToSection("impact")}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
-            >
-              Impact
-            </button>
-            <button
-              onClick={() => scrollToSection("contact")}
-              className="text-gray-700 hover:text-blue-600 transition-colors"
-            >
-              Contact
-            </button>
-            <Button onClick={() => scrollToSection("donate")} className="bg-blue-600 hover:bg-blue-700">
-              Donate Now
-            </Button>
+            {navItems.map(({ id, label }) =>
+              renderNavLink(id, label, "text-gray-700 hover:text-blue-600 transition-colors"),
+            )}
+            <Link href="/blog" className="text-gray-700 hover:text-blue-600 transition-colors">
+              Blog
+            </Link>
+            {isHome ? (
+              <Button onClick={() => scrollToSection("donate")} className="bg-blue-600 hover:bg-blue-700">
+                {donateButtonLabel}
+              </Button>
+            ) : (
+              <Button asChild className="bg-blue-600 hover:bg-blue-700">
+                <Link href="/#donate">{donateButtonLabel}</Link>
+              </Button>
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -87,33 +104,28 @@ export function Navbar() {
         {isMobileMenuOpen && (
           <div className="md:hidden py-4 border-t">
             <div className="flex flex-col gap-4">
-              <button
-                onClick={() => scrollToSection("about")}
+              {navItems.map(({ id, label }) =>
+                renderNavLink(
+                  id,
+                  label,
+                  "text-gray-700 hover:text-blue-600 transition-colors text-left px-4 py-2",
+                ),
+              )}
+              <Link
+                href="/blog"
                 className="text-gray-700 hover:text-blue-600 transition-colors text-left px-4 py-2"
               >
-                About
-              </button>
-              <button
-                onClick={() => scrollToSection("programs")}
-                className="text-gray-700 hover:text-blue-600 transition-colors text-left px-4 py-2"
-              >
-                Programs
-              </button>
-              <button
-                onClick={() => scrollToSection("impact")}
-                className="text-gray-700 hover:text-blue-600 transition-colors text-left px-4 py-2"
-              >
-                Impact
-              </button>
-              <button
-                onClick={() => scrollToSection("contact")}
-                className="text-gray-700 hover:text-blue-600 transition-colors text-left px-4 py-2"
-              >
-                Contact
-              </button>
-              <Button onClick={() => scrollToSection("donate")} className="bg-blue-600 hover:bg-blue-700 mx-4">
-                Donate Now
-              </Button>
+                Blog
+              </Link>
+              {isHome ? (
+                <Button onClick={() => scrollToSection("donate")} className="bg-blue-600 hover:bg-blue-700 mx-4">
+                  {donateButtonLabel}
+                </Button>
+              ) : (
+                <Button asChild className="bg-blue-600 hover:bg-blue-700 mx-4">
+                  <Link href="/#donate">{donateButtonLabel}</Link>
+                </Button>
+              )}
             </div>
           </div>
         )}
