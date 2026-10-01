@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   description:
     "Grace for Poor Foundation is dedicated to empowering underprivileged communities through education, healthcare, and sustainable development initiatives.",
 };
+
+// Content comes from Payload globals, so render per request instead of
+// freezing it at build time.
+export const dynamic = "force-dynamic";
+
 export default function Page() {
   return <LandingPage />;
 }
